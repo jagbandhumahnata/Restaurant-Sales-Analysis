@@ -1,9 +1,9 @@
 # 🍽️ Restaurant Sales & Order Analysis (Delhi NCR)
 
 ## 📝 Project Overview
-This project focuses on the **cleaning, preprocessing, and exploratory analysis** of a restaurant order history dataset sourced from Kaggle. [cite_start]The dataset contains over **21,000 records** of food orders from the Delhi NCR region, tracking details such as order status, kitchen preparation time (KPT), rider wait times, and customer ratings[cite: 1, 2].
+This project focuses on the **cleaning, preprocessing, and exploratory analysis** of a restaurant order history dataset sourced from Kaggle. The dataset contains over **21,000 records** of food orders from the Delhi NCR region, tracking details such as order status, kitchen preparation time (KPT), rider wait times, and customer ratings.
 
-[cite_start]The primary goal of this notebook was to handle significant missing data, remove redundant features, and prepare a clean dataset for further analysis or machine learning tasks[cite: 1].
+The primary goal of this notebook was to handle significant missing data, remove redundant features, and prepare a clean dataset for further analysis or machine learning tasks.
 
 ---
 
@@ -22,7 +22,7 @@ This project focuses on the **cleaning, preprocessing, and exploratory analysis*
 ## 🛠️ Data Cleaning & Methodology
 
 ### 1. Initial Inspection
-*]Identified that the dataset covers only one city (**Delhi NCR**), making the `City` column redundant.
+*Identified that the dataset covers only one city (**Delhi NCR**), making the `City` column redundant.
 * **Missing Value Detection:** 
     * `Rating`: **18,830** missing values (Significant gap).
     * `KPT duration`: 295 missing values.
@@ -62,7 +62,7 @@ We analyzed the order volume to identify the most popular eateries.
 ## 📊 Dashboard Design & Features Created
 A comprehensive dashboard was designed to provide a high-level overview of restaurant performance metrics.
 
-### 1. Layout Features [cite: 1]
+### 1. Layout Features 
 * **KPI Scorecards:** Total Orders, Average Order Value, Average Rating, and Preparation Time.
 * **Product Performance:** Vertical bar chart ranking "Top Dishes" by quantity sold.
 * **Geographical Insight:** "Order Radius" histogram analyzing delivery distances ( <1km to 9km).
@@ -79,7 +79,7 @@ A comprehensive dashboard was designed to provide a high-level overview of resta
 * **Chilli Cheese Garlic Bread:** Popular side item (~2,000 units).
 * **Other Top Items:** All About Chicken Pizza, Makhani Paneer Pizza, Margherita Pizza.
 
-### 4. Geographical & Market Insights [cite: 1]
+### 4. Geographical & Market Insights 
 * **Delivery Radius:** Significant volumes at 2km and 3km marks.
 * **Market Dominance:** The largest market segment captures **73.87% (10.75M)** of the share, followed by a secondary segment with **24.36% (3.55M)**.
 
@@ -113,5 +113,5 @@ Based on the data cleaning process and analysis, the following actions are recom
 ---
 
 ## 💾 Deliverables
-* [cite_start]**Input File:** `order_history_kaggle_data.csv` [cite: 1]
-* [cite_start]**Output File:** `cleaned_order_history.csv` (16 optimized columns, zero missing values) [cite: 1]
+* **Input File:** `order_history_kaggle_data.csv` 
+* **Output File:** `cleaned_order_history.csv` (16 optimized columns, zero missing values) 
